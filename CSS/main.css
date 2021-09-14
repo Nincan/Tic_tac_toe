@@ -1,0 +1,76 @@
+body{
+    
+    background-color: black;
+    
+
+}
+h1{
+    color: #F4D19B;
+    font-family: 'Callie Chalk Font', sans-serif;
+    text-align: center;
+    padding:15px;
+}
+
+#app {
+    position:absolute;
+    right: 35%;
+    border: 1px solid black;
+    width:500px;
+    height:570px;
+    display:flex;
+    flex-direction: column;
+    top:20%;
+
+}
+.header{
+    display:flex;
+    
+}
+.header > *{
+
+    color: #F4D19B;
+    font-family: 'Callie Chalk Font', sans-serif;
+    align-items: center;
+    flex-grow:1;
+    background-color: black;
+   
+}
+.turn{
+  padding:15px;
+
+
+
+}
+
+.status{
+    padding:15px;
+   
+}
+
+.refresh{
+    font-family: 'Callie Chalk Font', sans-serif;
+  color:#F4D19B;
+}
+
+.grid{
+    display: grid;
+    flex-grow: 1;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    background-color: #F4D19B;
+    gap: 5px;
+}
+
+.tiles:hover{
+    
+    cursor: pointer;
+}
+.tiles{
+    font-family: 'Callie Chalk Font', sans-serif;
+    background-color: black;
+    font-size: 80px;
+    text-align: center;
+    color:#F4D19B;
+
+
+}
